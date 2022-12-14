@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GifItem 01 pruebas de PropTypes obligatorios y hacer match con snapshot doce 1`] = `
+<div>
+  <div
+    class="card"
+    style="width: 10rem;"
+  >
+    <img
+      alt="Goku"
+      src="https://media3.giphy.com/media/GRSnxyhJnPsaQy9YLn/100w_s.gif"
+    />
+    <p
+      class="small"
+    >
+      Goku
+    </p>
+  </div>
+</div>
+`;

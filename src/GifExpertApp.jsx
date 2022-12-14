@@ -21,6 +21,3 @@ export const GifExpertApp = () => {
     </>
   );
 };
-{
-  //esto es un comentario.
-}

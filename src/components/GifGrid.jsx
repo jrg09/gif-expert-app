@@ -1,13 +1,14 @@
 import { useFetchGifs, GifItem } from "./";
 import { InfinitySpin } from "react-loader-spinner";
+import PropTypes from "prop-types";
 
 export const GifGrid = ({ category }) => {
   const { gifs, isLoading } = useFetchGifs(category);
 
-  console.log({ gifs, isLoading });
+  //console.log({ gifs, isLoading });
 
   return (
-    <>
+    <div>
       <h4>{category}</h4>
       {isLoading ? (
         <div>
@@ -23,6 +24,10 @@ export const GifGrid = ({ category }) => {
           </div>
         </>
       )}
-    </>
+    </div>
   );
+};
+
+GifGrid.propTypes = {
+  category: PropTypes.string.isRequired,
 };
